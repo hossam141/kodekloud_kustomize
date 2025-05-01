@@ -6,3 +6,6 @@ resources:
   - grafana-service.yaml
 
 namespace: logging
+
+commonAnnotations:
+  owner: bob@gmail.com

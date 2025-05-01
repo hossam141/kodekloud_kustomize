@@ -4,3 +4,10 @@ kind: Kustomization
 resources:
   - nginx-depl.yaml
   - nginx-service.yaml
+
+commonAnnotations:
+  owner: bob@gmail.com
+
+images:
+  - name: nginx
+    newTag: "1.23"
